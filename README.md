@@ -1,2 +1,2 @@
 # roccofarrell.github.io
-website
+My personal website. Updated August 2019 using just HTML and CSS (Flexbox).

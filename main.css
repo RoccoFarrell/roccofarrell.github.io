@@ -1,0 +1,107 @@
+
+body {
+  font-family: 'Livvic', sans-serif;
+  margin: 0;
+  background-image: url("./static/background.png");
+  background-repeat: repeat;
+}
+
+#maincontent {
+  padding-left: 200px;
+}
+#navigation {
+  width: 100%;
+  position: fixed;
+
+}
+
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  background-color: RGBA(220,220,220,0.4);
+}
+.navbar-left {
+  align-items: stretch;
+}
+
+.navbar-right {
+  align-items: stretch;
+}
+
+ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+ul > li {
+  display: flex;
+  width: 100px;
+  margin-left: 10px;
+  margin-right: 10px;
+  justify-content: center;
+  align-items: stretch;
+}
+
+ul > li > a {
+  color: inherit;
+  text-decoration: inherit;
+  flex-grow: 1;
+  text-align: center;
+  line-height: 50px;
+}
+
+ul > li > img {
+  text-align: center;
+  line-height: 50px;
+}
+
+ul > li:hover {
+  color: #adf;
+  background-color: #9a9a9a;
+  cursor: pointer;
+}
+
+#projects {
+  display: flex;
+  justify-content: space-around;
+}
+
+#intro {
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+#intro h1 {
+  font-size: 4em;
+}
+
+#compHeader {
+  margin: 20px;
+  padding: 10px;
+}
+
+#footer {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  font-size: .5em;
+  text-align: center;
+}
+
+#footer a {
+  color: #989898
+}
+
+.proj-item {
+  border: 1px red solid;
+  padding: 5px;
+  width: 100%;
+}
